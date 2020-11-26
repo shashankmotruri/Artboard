@@ -1,0 +1,46 @@
+.MuiTypography-root,.MuiDialogContent-root {
+    text-align: center;
+}
+.MuiInputBase-fullWidth {
+    width: 90% !important;
+}
+
+.MuiDialog-paper {
+    overflow: hidden !important;
+}
+.MuiInputBase-root {
+    margin-left: 20px;
+}
+
+
+.MuiPaper-root > label:nth-child(6){
+    position: relative;
+    width: 90px;
+    left: 16em;
+}
+
+.upload-input{
+    display: none;
+    margin-left: 12em;
+}
+.MuiDivider-root {
+margin-top: 1em;
+}
+
+.MuiPaper-root > span:nth-child(5) {
+    position: relative;
+    width: 30px;
+    left: 13em;
+    top: 1.8em;
+}
+button.MuiButtonBase-root {
+    margin-bottom: 1em;
+    margin-top: 0px;
+    top: 0.5em;
+    left: 23em;
+}
+
+.MuiButton-containedSecondary {
+    top: 3em;
+    left: 12em;
+}

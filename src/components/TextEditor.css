@@ -1,0 +1,102 @@
+.gTALdq:hover {
+    box-shadow: inset 0 0 0 2px var(--primary);
+}
+
+.gTALdq {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    color: inherit;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    border: 1px solid var(--border-color);
+    display: none;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transform: translateX(0px);
+}
+.texteditor:hover .sidebar-toggle-button {
+    display: flex
+}
+.sidebar-toggle-button:hover{
+    box-shadow: inset 0 0 0 1px rgba(20, 115, 230);
+}
+.sidebar-toggle-button{
+    left: -20px;
+}
+.sidebar-toggle-button svg {
+    margin: 0px;
+    width: 8px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+/*Text-Editind-menu*/
+.text-editing-menu{
+    position: absolute;
+    left: 2em;
+    display: block;
+}
+.rdw-fontfamily-dropdown {
+    width: 150px !important;
+}
+.rdw-fontsize-dropdown {
+    min-width: 50px !important;
+}
+.rdw-block-dropdown {
+    width: 150px !important;
+}
+   
+
+.public-DraftStyleDefault-block {
+    border: 1px solid !important;
+}
+
+.rdw-editor-toolbar > div:nth-child(5) > div:nth-child(1) {
+    margin-top: 5px !important;
+    margin-left: 3px !important;
+    position: fixed !important;
+}
+.rdw-editor-toolbar > div:nth-child(5) > div:nth-child(2) {
+    position: absolute;
+    top: 200px;
+    left: 65px;
+}
+
+.text-animations{
+    position: absolute;
+}
+.text-animations > h5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    opacity:0.5
+}
+
+.text-editing-menu > h5{
+    opacity: 0.5;
+}
+
+#select {
+    width: 12em;
+    height: 1.8em;
+    position: relative;
+}
+#label {
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+}
+.MuiFormControl-root {
+    right: 1.5em;
+    min-height: 2em;
+}
+.MuiNativeSelect-select {
+    min-width: 13em !important;
+}

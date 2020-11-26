@@ -1,0 +1,13 @@
+.group1:hover svg,.group1:hover span,
+.group2:hover svg,.group2:hover span,
+.group3:hover span,
+.group4:hover svg,.group4:hover span
+{
+    fill: rgba(20, 115, 230) !important;
+    color: rgba(20, 115, 230) !important;
+}
+.group3:hover svg{
+    color: rgba(20, 115, 230) !important;
+}
+
+

@@ -1,0 +1,37 @@
+.timeline-btn{
+    position: absolute;
+    box-sizing: border-box;
+    border: none !important;
+    transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin: 0.00px;
+    padding: 0.00px;
+    background-color:  rgba(20, 115, 230, 1); 
+    border-radius: 16px;
+    width: 160.00px;
+    height: 60px;
+    left: 0.00px;
+    top: 0.00px;
+    right: 0.00px;
+    bottom: 0.00px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Adobe Clean', Arial;
+    transition: all 500ms ease;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+
+  }
+  .timeline-btn:hover{
+    background-color: rgb(3, 70, 153); 
+  }
+  .timeline-btn:focus{
+    background-color: rgb(3, 70, 153); 
+  }
+
+ 
